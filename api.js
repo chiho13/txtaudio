@@ -22,7 +22,8 @@ const client = new textToSpeech.TextToSpeechClient();
 app.get('/', (req, res) => {
     // const postBody = request.body;
     // console.log(postBody);
-   console.log("hello")
+   console.log("hello");
+   res.send("nothing here")
 });
 
 app.post('/txttospeech', (req, res) => {
